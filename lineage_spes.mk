@@ -23,6 +23,9 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
 PRODUCT_MANUFACTURER := Xiaomi
 
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := false
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Fingerprint
