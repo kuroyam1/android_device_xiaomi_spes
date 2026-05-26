@@ -28,6 +28,9 @@ TARGET_ENABLE_BLUR := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Android GO
+$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults.mk)
+
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="spes_global-user 13 TKQ1.221114.001 V816.0.11.0.TGKMIXM release-keys" \
